@@ -13,12 +13,12 @@ namespace RecorridoMatriz4x4
             int[,] matriz = { { 1, 3, 5, 7 }, { 4, 7, 9, 7 }, { 2, 6, 8, 0 }, { 2, 4, 5, 2 } };
             
             int cont = 0;
-            
 
+            int arraySize = matriz.GetLength(0);
            
-            for (int o = 0; o < 4; o++)
+            for (int o = 0; o < arraySize; o++)
             {
-                for (int p = 0; p < 4; p++)
+                for (int p = 0; p < arraySize; p++)
                 {
                     Console.Write(matriz[o,p] + (","));
                 }
@@ -27,11 +27,11 @@ namespace RecorridoMatriz4x4
             }
             Console.WriteLine();
 
-            for (int i = 0; i < matriz.GetLength(0); i++)
+            for (int i = 0; i < arraySize; i++)
             {
                 if (cont % 2 == 0)
                 {
-                    for (int abajo = 0; abajo < matriz.GetLength(0); abajo++)
+                    for (int abajo = 0; abajo < arraySize; abajo++)
                     {
                         Console.Write(matriz[abajo,cont] + (","));
                     }
@@ -39,7 +39,7 @@ namespace RecorridoMatriz4x4
                 }
                 else if (cont % 2 == 1)
                 {
-                    for (int arriba = matriz.GetLength(0) - 1; arriba >= 0; arriba--)
+                    for (int arriba = arraySize - 1; arriba >= 0; arriba--)
                     {
                         Console.Write(matriz[arriba,cont] + (","));
                     }
