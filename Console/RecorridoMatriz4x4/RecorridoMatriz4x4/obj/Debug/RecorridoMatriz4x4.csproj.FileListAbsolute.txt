@@ -1,0 +1,7 @@
+C:\Users\kiuub\UNEDL\Console\RecorridoMatriz4x4\RecorridoMatriz4x4\bin\Debug\RecorridoMatriz4x4.exe.config
+C:\Users\kiuub\UNEDL\Console\RecorridoMatriz4x4\RecorridoMatriz4x4\bin\Debug\RecorridoMatriz4x4.exe
+C:\Users\kiuub\UNEDL\Console\RecorridoMatriz4x4\RecorridoMatriz4x4\bin\Debug\RecorridoMatriz4x4.pdb
+C:\Users\kiuub\UNEDL\Console\RecorridoMatriz4x4\RecorridoMatriz4x4\obj\Debug\RecorridoMatriz4x4.csprojAssemblyReference.cache
+C:\Users\kiuub\UNEDL\Console\RecorridoMatriz4x4\RecorridoMatriz4x4\obj\Debug\RecorridoMatriz4x4.csproj.CoreCompileInputs.cache
+C:\Users\kiuub\UNEDL\Console\RecorridoMatriz4x4\RecorridoMatriz4x4\obj\Debug\RecorridoMatriz4x4.exe
+C:\Users\kiuub\UNEDL\Console\RecorridoMatriz4x4\RecorridoMatriz4x4\obj\Debug\RecorridoMatriz4x4.pdb
