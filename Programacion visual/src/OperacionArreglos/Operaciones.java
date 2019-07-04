@@ -12,7 +12,7 @@ import java.util.Scanner;
  * @author kiuub
  */
 public class Operaciones {
-    public static void arrayExercise(){
+    public static void operaciones(){
         Scanner scan = new Scanner(System.in);
         System.out.println("ingrese el tamaño del arreglo: ");
         int arraysize = scan.nextInt();
@@ -45,6 +45,6 @@ public class Operaciones {
         System.out.println("Resultado: " + mayor);        
     }
      public static void main(String[] args) {
-          arrayExercise();
+          operaciones();
     }
 }
