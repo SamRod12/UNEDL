@@ -1,0 +1,89 @@
+#wrapper{
+    background-image: url("../img/original.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    
+}
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+table{
+    border: 5px;
+    border:solid black;
+    margin: auto;
+    background-color: rgb(0,0,0,0.7);
+    align-content: center;
+    width: 800px;
+    height: 400px;
+    padding:10px;
+
+    
+}
+table *{
+    text-align: center;
+}
+
+#line {
+    border-top:1px;
+    border-top:solid rgb(226, 226, 226);
+    padding:0;
+    margin:5px;
+    height: 10px;
+   
+}
+
+.dias{
+    border:1px;
+    border:solid white;
+}
+
+td{
+    width: 200px;
+    padding: 5px;
+  
+}
+td:hover{
+    background-color: rgba(109, 163, 243, 0.4);
+    transition: 0.5s;
+}
+.content{
+    padding:46px;
+
+}
+
+#xMas{
+    background: rgb(251,1,1);
+    background: linear-gradient(135deg, rgba(251,1,1,0.4) 45%, rgba(0,255,248,0.4) 62%, rgba(255,255,255,0.4) 87%);
+}
+#xMas:hover{
+    background: rgba(109, 163, 243, 0.4);
+    transition: 0.5s;
+}
+#entrega{
+    background-color: rgba(0,255,248,0.4);
+}
+#entrega:hover{
+    background-color: rgba(109, 163, 243, 0.4);
+    transition: 0.5s;
+}
+
+.fest{
+    background-color: rgba(0,255,248,0.4);
+}
+.fest:hover{
+    background-color: rgba(109, 163, 243, 0.4);
+    transition: 0.5s;
+}
+
+.lighter{
+    color: rgb(26, 19, 19);
+}
+.lighter:hover{
+    color:white;
+}
+
